@@ -2,12 +2,11 @@
 
 class Kata {
   get_middle(word){
-    var middleLetter = Math.ceil(word.length/2);
-    console.log(middleLetter);
+    var middle = Math.ceil(word.length/2);
     if (word.length % 2 !== 0) {
-      return word.substring(middleLetter - 1, middleLetter);
+      return word.substring(middle - 1, middle);
     } else {
-      return word.substring(middleLetter - 1, middleLetter + 1);
+      return word.substring(middle - 1, middle + 1);
     }
   }
 }

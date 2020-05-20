@@ -12,4 +12,7 @@ describe('Kata', function() {
   it('returns es when given the word test', function() {
     expect(kata.get_middle('test')).toEqual('es');
   })
+  it('returns A when given the word A', function() {
+    expect(kata.get_middle('A')).toEqual('A');
+  })
 })

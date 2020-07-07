@@ -1,6 +1,6 @@
-# Process workshop - Get the Middle Letter(s)
+## Process workshop - Get the Middle Letter(s)
 
-## Requirements
+#### Requirements
 
 - The program runs in a REPL like `irb` or in a browser console.
 
